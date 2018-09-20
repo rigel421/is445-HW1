@@ -1,0 +1,84 @@
+html {
+    background-color: white;
+
+}
+
+body {
+    width: 900px;
+    margin: auto;
+    display: flex;
+}
+
+.title {
+    text-align: center;
+}
+
+.page-title {
+    border-bottom: 5px  solid green;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 15px;
+}
+
+
+.left-column {
+    width: 50%;
+    border-right: 4px solid red;
+    border-top: 4px solid red;
+    border-left: 4px solid red;
+    border-bottom: 4px solid red;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+.right-column {
+    width: 50%;
+    border-right: 4px solid red;
+    border-top: 4px solid red;
+    border-bottom: 4px solid red;
+    vertical-align: top;
+}
+
+.table-title {
+    text-align: center;
+    vertical-align: top;
+    
+}
+
+
+
+.subtitle {
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 0px;
+    margin-left: auto;
+}
+
+.subtext {
+    padding-bottom: 15px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+.inputs {
+    display: block;
+    text-align: left;
+}
+
+.textbox {
+    width: 350px;
+}
+
+.button {
+    text-align: center;
+}
