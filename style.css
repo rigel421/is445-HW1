@@ -2,6 +2,7 @@ html {
     background-color: white;
 }
 
+/* Instructions specify a body width of 900px*/
 body {
     width: 900px;
     margin: auto;
@@ -12,6 +13,7 @@ body {
     text-align: center;
 }
 
+/* I tried to mimmick the style of the page as much as possible. Adding a border bottom seemed like the best way to create that underline*/
 .page-title {
     border-bottom: 5px  solid rgb(10, 197, 10);
     padding: 5px;
@@ -20,6 +22,7 @@ body {
     margin-right: auto;
 }
 
+/* I used relative width of 30% to make the size best match the proportions of the sample*/
 .image {
     margin-left: auto;
     margin-right: auto;
@@ -38,8 +41,8 @@ body {
     vertical-align: top;
 }
 
+/* Note that I don't have to specify the width again for this column. */
 .right-column {
-    width: 50%;
     border-right: 4px solid red;
     border-top: 4px solid red;
     border-bottom: 4px solid red;
